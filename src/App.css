@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	line-height: 1.2;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.app {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.app_content {
+	width: 80%;
+	min-height: 90vh;
+}

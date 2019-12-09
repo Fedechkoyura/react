@@ -1,0 +1,39 @@
+.nav {
+	width: 20%;
+	background: blue;
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.nav ul li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.nav_link_active {
+	color: gold;
+}
+
+.active {
+	opacity: .5;
+}

@@ -1,0 +1,106 @@
+.dialogs {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 100%;
+}
+
+.list {
+	width: 20%;
+	border-right: 1px solid #000;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	text-align: center;
+}
+
+.list li {
+	width: 100%;
+}
+
+.list li a {
+	padding: 15px 5px;
+	border-bottom: 1px solid #000;
+	text-decoration: none;
+	color: #000;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1;
+	transition: .3s ease-in-out;
+	position: relative;
+	width: calc(100% + 1px);
+}
+
+.list li:first-child a {
+	border-top: 1px solid #000;
+}
+
+.list li a:hover {
+	background: rgba(0, 0, 0, .1);
+}
+
+.message_list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	width: 80%;
+	padding: 30px 30px;
+	margin-bottom: 20px;
+}
+
+.message {
+	width: 65%;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+	border-radius: 50px;
+	padding: 10px 20px;
+	font-size: 14px;
+}
+
+.message:nth-child(even) {
+	margin-left: auto;
+}
+
+.message:nth-child(even) {
+	background: rgba(0, 0, 0, .1);
+}
+
+.message p {
+	margin: 0;
+}
+
+.message__add {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}

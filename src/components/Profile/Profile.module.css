@@ -1,0 +1,121 @@
+.profile {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
+}
+
+.bg {
+	width: 100%;
+}
+
+.bg img {
+	width: 100%;
+	max-height: 400px;
+	object-fit: cover;
+}
+
+.avatar {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+}
+
+.info {
+	width: 60%;
+	margin-left: 50px;
+}
+
+.name {
+	font-weight: 900;
+}
+
+.info_wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
+	padding: 20px;
+}
+
+.add_post {
+	width: 580px;
+	padding: 20px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+
+}
+
+.add_post_title {
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.add_post_message,
+.add_post_btn {
+	width: 100%;
+	resize: none;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #000;
+	border-radius: 50px;
+	background: transparent;
+	outline: none;
+}
+
+.add_post_message {
+	border-radius: 20px;
+}
+
+.add_post_message {
+	height: 100px;
+}
+
+.add_post_btn {
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1.5px;
+	font-weight: 700;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	cursor: pointer;
+	padding-top: 12px;
+}
+
+.add_post_btn:hover {
+	background: #000;
+	color: #fff;
+}
